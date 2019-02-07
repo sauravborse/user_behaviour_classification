@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn import preprocessing, cross_validation, neighbors, svm
+from sklearn import preprocessing, neighbors, svm
 import pandas as pd
 
 df = pd.read_csv('dataset.csv')
@@ -13,7 +13,7 @@ y = np.array(df['id1'])
 
 
 
-x_train, x_test, y_train, y_test = cross_validation.train_test_split(x,y,test_size=0.2)
+x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
 
 clf = svm.SVC()
 clf.fit(x_train,y_train)
