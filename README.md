@@ -6,10 +6,16 @@ In today’s World, Digitalisation is the trending picture among people because 
 
 Classifiers Used
 1. KNN
+2. Naive Bayes
+3. SVM(Support Vector Machine)
 
 run command
 1. python3 knn.py
 2. python3 knnscratch.py
+3. python3 UserClassify.py 
+4. python3 naive.py 
 
-First one is using inbuilt functions with accuracy almost 98%
-In second one, the function is explicitely written to find k nearest neighbours but the accuracy is coming around 60% which is quite lesser than the implicit code.
+1. knn.py :- KNN Using python libraries and inbuilty functions.
+2. knnscratch.py :- KNN using functions explicitely written.
+3. UserClassify.py :- SVM using python libraries and functions.
+4. naive.py :- Naive Bayes using python libraries and functions.
